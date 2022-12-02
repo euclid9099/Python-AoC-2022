@@ -1,0 +1,2 @@
+print("Day 1a: " + str(max(map(lambda e: sum(map(lambda block: int(block), e.split("\n"))),open("1/1.input", "r").read().split("\n\n")))) + "\nDay 1b: " + str(sum(sorted(list(map(lambda e: sum(map(lambda block: int(block), e.split("\n"))),open("1/1.input", "r").read().split("\n\n"))))[-3:])))
+# for explanations on this monstrosity visit the specific solutions. this file is just a combination of the form "\nDay Na: " and whatever the corresponding oneliner was
