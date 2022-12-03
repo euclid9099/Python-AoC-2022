@@ -1,0 +1,8 @@
+print(sum(map(lambda mismatch: mismatch - 96 if mismatch > 96 else mismatch - 38, map(lambda rucksack: ord(set(rucksack[:int(len(rucksack) / 2)]).intersection(set(rucksack[int(len(rucksack) / 2):])).pop()), open("3.input", "r").read().splitlines()))))
+"""
+Explanation:
+                                                                                                                                                                                                               open("3.input", "r").read().splitlines()     # get all lines in file
+                                                                                  map(lambda rucksack: ord(set(rucksack[:int(len(rucksack) / 2)]).intersection(set(rucksack[int(len(rucksack) / 2):])).pop()),                                         )        # replace every line with the element which exists in both files
+          map(lambda mismatch: mismatch - 96 if mismatch > 96 else mismatch - 38,                                                                                                                                                                       )       # replace every double symbol with its priority
+print(sum(                                                                                                                                                                                                                                               ))     # sum and print all the values
+"""
