@@ -11,7 +11,7 @@ Want to learn something through self explanatory code?
 
 Then this repository is **not** for you. As a personal challenge for [AoC 2022](https://adventofcode.com/2022), I try to solve every problem using only one (1) line of code.
 
-Performance is of little interest, as we all have to make sacrifices in the name of writing horrible python code. Also, the rules allow for any imports from the python standard library (even if this technically requires a second line)
+Performance is of little interest, as we all have to make sacrifices in the name of writing horrible python code. Also, I allow myself any imports from the python standard library (even if this technically requires a second line).
 
 ## Prerequisites
 To run this program, you'll need [python](https://www.python.org/downloads/) (I run python 3.11, though lower versions would most likely also work). Every day has its own two oneliners - one for each part - alongside the given input in a folder. Additionally, within the source folder, there is one file named [all.py](./src/all.py), which should be updated each day to contain every single day.
