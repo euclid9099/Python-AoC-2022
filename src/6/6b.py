@@ -1,0 +1,1 @@
+print(list(map(lambda text: list(i for i in range(14, len(text)) if len(set(text[i-14:i])) == 14),[open("6.input", "r").read()]))[0][0])
