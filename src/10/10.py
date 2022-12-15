@@ -1,0 +1,2 @@
+import functools
+print(sum(i[1] * (i[0] * 40 + 20) for i in enumerate(functools.reduce(lambda cycles_carry, command: (cycles_carry[0] + [cycles_carry[1]] * (1 if command[0] == "n" else 2), cycles_carry[1] + (0 if command[0] == "n" else int(command.split()[1]))), open("10.input", "r").readlines(), ([], 1))[0][19::40])))
